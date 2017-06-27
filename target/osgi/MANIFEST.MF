@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1498593772160
+Build-Jdk: 1.8.0_111
+Built-By: sp
+Bundle-Description: Tiles Core Library, including basic implementation o
+ f the APIs.
+Bundle-DocURL: http://tiles.apache.org/2.1/framework/tiles-core/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Tiles - Core Library
+Bundle-SymbolicName: org.apache.tiles.core
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.1.4
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.tiles;version="2.1.4",org.apache.tiles.awaren
+ ess;version="2.1.4",org.apache.tiles.beans;version="2.1.4",org.apache.t
+ iles.context;version="2.1.4",org.apache.tiles.context.enhanced;version=
+ "2.1.4",org.apache.tiles.definition;version="2.1.4",org.apache.tiles.de
+ finition.dao;version="2.1.4",org.apache.tiles.definition.digester;versi
+ on="2.1.4",org.apache.tiles.definition.util;version="2.1.4",org.apache.
+ tiles.evaluator;version="2.1.4",org.apache.tiles.evaluator.el;version="
+ 2.1.4",org.apache.tiles.evaluator.impl;version="2.1.4",org.apache.tiles
+ .factory;version="2.1.4",org.apache.tiles.impl;version="2.1.4",org.apac
+ he.tiles.impl.mgmt;version="2.1.4",org.apache.tiles.locale;version="2.1
+ .4",org.apache.tiles.locale.impl;version="2.1.4",org.apache.tiles.prepa
+ rer;version="2.1.4",org.apache.tiles.renderer;version="2.1.4",org.apach
+ e.tiles.renderer.impl;version="2.1.4",org.apache.tiles.startup;version=
+ "2.1.4",org.apache.tiles.util;version="2.1.4"
+Implementation-Title: Tiles - Core Library
+Implementation-URL: http://tiles.apache.org/2.1/framework/tiles-core/
+Implementation-Vendor: Apache Software Foundation
+Implementation-Vendor-Id: org.apache.tiles
+Implementation-Version: 2.1.4
+Import-Package: javax.el,org.apache.commons.digester,org.apache.commons.
+ logging,org.apache.el,org.apache.tiles;version="[2.1,3)",org.apache.til
+ es.access,org.apache.tiles.awareness;version="[2.1,3)",org.apache.tiles
+ .context;version="[2.1,3)",org.apache.tiles.definition;version="[2.1,3)
+ ",org.apache.tiles.definition.dao;version="[2.1,3)",org.apache.tiles.de
+ finition.digester;version="[2.1,3)",org.apache.tiles.evaluator;version=
+ "[2.1,3)",org.apache.tiles.evaluator.impl;version="[2.1,3)",org.apache.
+ tiles.factory;version="[2.1,3)",org.apache.tiles.impl;version="[2.1,3)"
+ ,org.apache.tiles.impl.mgmt;version="[2.1,3)",org.apache.tiles.locale;v
+ ersion="[2.1,3)",org.apache.tiles.locale.impl;version="[2.1,3)",org.apa
+ che.tiles.mgmt,org.apache.tiles.preparer;version="[2.1,3)",org.apache.t
+ iles.reflect,org.apache.tiles.renderer;version="[2.1,3)",org.apache.til
+ es.renderer.impl;version="[2.1,3)",org.apache.tiles.util;version="[2.1,
+ 3)",org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Specification-Title: Tiles - Core Library
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 2.1.4
+Tool: Bnd-3.3.0.201609221906
