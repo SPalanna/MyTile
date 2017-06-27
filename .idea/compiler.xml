@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Tiles2.1.4" />
+        <module name="Tiles2.1.4a" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Tiles2.1.4" target="1.5" />
+      <module name="Tiles2.1.4a" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
